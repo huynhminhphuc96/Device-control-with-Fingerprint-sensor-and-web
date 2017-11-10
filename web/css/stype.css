@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+}
+#welcome{
+	margin:auto;
+	background-image:url(../img/hcmute.jpg);
+	height:650px;
+	width:1280px;
+
+}
+.welcome_info a{
+	text-decoration:none;
+	color:#000;
+	cursor:default;
+}
+.welcome_info {
+	background-image:url(../img/blur.png);
+	height:650px;
+	width:1000px;
+	margin:auto;
+}
+.tbwelcome{
+	text-align:center;
+	margin:auto;
+}
+.name-proj{
+	font-size:24px;
+	color:#E00;
+}
+.info-proj{
+	padding-left:120px;
+	text-align:left;
+}
+
+#wrapper {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color:#06F;
+	height: auto;
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#tile{
+	font-size: 18px;
+	text-align: center;
+	color: #FFF;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+#menu{
+	background-color: #CCC;
+}
+#menu ul li{
+	list-style:none;
+	height:23px;
+	width:80px;
+	text-align:center;
+	padding-top:5px;
+	padding-bottom::5px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+#menu ul li:hover{
+	background-color:#666;
+	color:#FFF;
+}
+#menu ul a{
+	text-decoration:none;	
+	color:#000;
+	
+}
+#content {	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-align: center;
+	width:70%;
+	height: 500px;
+	margin-top:30px;
+	margin-right:auto;
+	margin-left: auto;
+
+}
+div#history{
+	width:49%;
+	float:right;
+
+}
+textarea{
+	width:100%;
+	height:305px;
+	color:#000;
+	resize:none;
+}
+
+div#control{
+	width:49%;
+	float:left;	
+}
+div#control a{
+	color:#00F;
+	text-decoration:none;	
+}
+
+div.login{
+	margin-top:100px;
+	margin-right:auto;
+	margin-left: auto;
+	width:346px;
+}
+div.login-error{
+	color:#F00;
+}
+.tile-dangnhap {
+	border:solid thin #339966;
+	background:#CFF;
+	padding:5px;
+}
+.input-dangnhap {
+	border:solid thin #339966;
+	padding:5px;
+}
+.td_tat:hover{
+	background-color:#CFF;
+	border-color:#339966;
+	color:#EEE;
+}
+.td_bat:hover{
+	background-color:#CFF;
+	border-color:#339966;
+	color:#EEE;
+}
+table{
+	border-collapse:collapse;
+	border-color:#339966;
+}
+table tr td{
+	border-color: #339966;
+	font-size: 16px;
+}
+.tr-tile-control{
+	background-color:#CFF;
+}
+.btn-dangnhap{
+	float:right;	
+}
+
+
+#welcome {
+}
