@@ -9,6 +9,10 @@ Module/Sensor: <br />
 -LCD16x2 <br />
 -Relay <br />
 
-Web application:
--PHP with MySQL
+Web application: <br />
+-PHP with MySQL <br />
 
+Tools: <br />
+-KeilC <br /> 
+-STM32CudeMX <br />
+-XAMPP <br />
