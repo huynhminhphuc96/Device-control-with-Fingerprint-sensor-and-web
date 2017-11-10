@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"finger-test-enroll\system_stm32f1xx.o"
+"finger-test-enroll\startup_stm32f103xb.o"
+"finger-test-enroll\stm32f1xx_it.o"
+"finger-test-enroll\main.o"
+"finger-test-enroll\stm32f1xx_hal_msp.o"
+"finger-test-enroll\r305.o"
+"finger-test-enroll\systemconfig.o"
+"finger-test-enroll\lcd16x2.o"
+"finger-test-enroll\stm32f1xx_hal_rcc_ex.o"
+"finger-test-enroll\stm32f1xx_hal_cortex.o"
+"finger-test-enroll\stm32f1xx_hal_pwr.o"
+"finger-test-enroll\stm32f1xx_hal_gpio_ex.o"
+"finger-test-enroll\stm32f1xx_hal_tim.o"
+"finger-test-enroll\stm32f1xx_hal_rcc.o"
+"finger-test-enroll\stm32f1xx_hal_gpio.o"
+"finger-test-enroll\stm32f1xx_hal_uart.o"
+"finger-test-enroll\stm32f1xx_hal.o"
+"finger-test-enroll\stm32f1xx_hal_tim_ex.o"
+"finger-test-enroll\stm32f1xx_hal_dma.o"
+"finger-test-enroll\stm32f1xx_hal_flash.o"
+"finger-test-enroll\stm32f1xx_hal_flash_ex.o"
+--library_type=microlib --strict --scatter "finger-test-enroll\finger-test-enroll.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "finger-test-enroll.map" -o finger-test-enroll\finger-test-enroll.axf
