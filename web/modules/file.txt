@@ -1,0 +1,12 @@
+dd-MM-YY hh:mm:ss #00 đăng nhập
+dd-MM-YY hh:mm:ss #00 bật đèn
+dd-MM-YY hh:mm:ss #00 bật quạt
+dd-MM-YY hh:mm:ss #00 đăng xuất
+dd-MM-YY hh:mm:ss #01 đăng nhập
+dd-MM-YY hh:mm:ss #01 tắt đèn
+dd-MM-YY hh:mm:ss #02 đăng nhập 
+dd-MM-YY hh:mm:ss #02 tắt quạt
+dd-MM-YY hh:mm:ss #02 đăng xuất
+
+
+
